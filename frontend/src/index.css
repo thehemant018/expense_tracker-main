@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: Pretendard;
+  }
+
+  .react-calendar__tile:enabled:hover,
+  .react-calendar__tile:enabled:focus,
+  .react-calendar__tile--active {
+    background: #FFB703;
+    border-radius : 22px 22px;
+  }
+
+  @layer utilities {
+    .bg-highlight {
+      background: linear-gradient(to top, #ffd15d 40%, transparent 40%);
+    }
+  }
